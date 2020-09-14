@@ -1,0 +1,9 @@
+{
+    "nome" : "luca",
+    "tavolo" : "T1",
+    "consumazioni" : [
+        {"nome" : "cappellacci", "numero": 2, "tipo" : "primo"},
+        {"nome" : "stinco", "numero": 1, "tipo" : "secondo"},
+        {"nome" : "wurstel", "numero": 5, "tipo" : "secondo"}
+    ]
+}

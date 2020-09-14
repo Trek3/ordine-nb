@@ -1,0 +1,8 @@
+{
+    "menu" : [
+        {"primi" : ["cappellacci", "gnocchetti"]},
+        {"secondi" :  ["stinco", "wurstel", "tomino"]},
+        {"piadineria" : ["piadina", "vuota"]},
+        {"altro" : ["acqua", "coca cola", "gelato"]}
+    ]
+}
