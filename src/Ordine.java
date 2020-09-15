@@ -6,6 +6,12 @@ public class Ordine {
     private String tavolo;
     private HashMap<String, Integer> ordine;
 
+    public Ordine(){
+        this.nome = "SENZA NOME";
+        this.tavolo = "X";
+        this.ordine = new HashMap<>();
+    }
+
     public Ordine(String nome, String tavolo){
         this.nome = nome;
         this.tavolo = tavolo;
@@ -29,5 +35,19 @@ public class Ordine {
 
     public HashMap<String, Integer> getOrdine() {
         return this.ordine;
+    }
+
+    public void add(String key){
+
+        if (this.ordine.containsKey(key)){
+            int amount = this.ordine.get(key);
+
+            this.ordine.put(key, amount + 1);
+        }
+        else {
+            this.ordine.put(key, 1);
+        }
+
+        System.out.println("Adding " + key + " to the order");
     }
 }

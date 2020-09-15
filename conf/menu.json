@@ -1,8 +1,8 @@
 {
     "menu" : [
-        {"primi" : ["cappellacci", "gnocchetti"]},
-        {"secondi" :  ["stinco", "wurstel", "tomino"]},
-        {"piadineria" : ["piadina", "vuota"]},
-        {"altro" : ["acqua", "coca cola", "gelato"]}
+        {"Primi" : ["Cappellacci al ragù", "Cappellacci burro e salvia"]},
+        {"Secondi" :  ["Stinco di Santos", "Misticanza", "Panino bretzel con stinco"]},
+        {"Piadineria" : ["Piadina Farcita", "Piadina Vuota"]},
+        {"Altro" : ["Acqua", "Coca Cola", "Birra Bionda", "Birra Rossa", "Gelato"]}
     ]
 }
